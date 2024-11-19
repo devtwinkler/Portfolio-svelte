@@ -1,6 +1,5 @@
 <script lang="ts">
-  // Any TypeScript logic can go here
-  import "../styles/style.scss";
+  import "../styles/style.scss";    //Import style-sheet
 </script>
 
 <slot />
