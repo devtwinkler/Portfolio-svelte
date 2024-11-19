@@ -5,5 +5,6 @@
 * @Modified: Nov 19, 2024
 **/
 
-@use "./tailwind.scss";
-@use "./general.scss";
+@use "./tailwind.scss"; //Config for Tailwind CSS
+@use "./general.scss"; //General style-sheet for every DOM
+@use "./layout.scss"; //Layout style-sheets, such as Header, Main, Footer, ...
