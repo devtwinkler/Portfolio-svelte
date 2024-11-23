@@ -1,19 +1,27 @@
 <script>
   import avatar from "../assets/imgs/mine-01.png";
   import logo from "../assets/imgs/logo.png";
+  import { NAME, QUALIFICATION } from "../lib/personal";
 </script>
 
 <header class="flex">
   <div>
-    <img src={avatar} alt="..." />
+    <div>
+      <img src={avatar} alt="..." />
+    </div>
+
+    <div>
+      <h1>{NAME}</h1>
+      <h2>{QUALIFICATION}</h2>
+    </div>
+
+    <div>
+      <img src={logo} alt="..." />
+    </div>
   </div>
 
   <div>
-    <h1>Denys Ostroverkh</h1>
-    <h2>Software Developer</h2>
-  </div>
-
-  <div>
-    <img src={logo} alt="..." />
+    <h1>{NAME}</h1>
+    <h2>{QUALIFICATION}</h2>
   </div>
 </header>
