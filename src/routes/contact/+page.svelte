@@ -1,4 +1,3 @@
-<main>
-  <h1>Contact</h1>
-  <p>Contact</p>
-</main>
+<div class="contents">
+  <h1>contact</h1>
+</div>
