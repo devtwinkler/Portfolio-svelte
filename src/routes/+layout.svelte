@@ -13,7 +13,13 @@
 
 <main>
   <!-- Dynamic rednering per page -->
-  <slot />
+  <div
+    class="page w-full pt-[1em] pb-[1em]
+      md:pl-[2em] sm:pl-[1em] xs:pl-[0.5em] exs:pl-[0em]
+      md:pr-[1em] sm:pr-[0.5em] xs:pr-[0.2em] exs:pr-[0em]"
+  >
+    <slot />
+  </div>
 
   <!-- Render menu -->
   <Menu />

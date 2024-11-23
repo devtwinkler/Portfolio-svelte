@@ -3,10 +3,11 @@
 body {
   header,
   footer,
-  nav {
+  .menu {
     background: $dark-color;
     opacity: 0.9;
     color: $white-color;
+    position: relative;
   }
 
   header {
@@ -20,31 +21,43 @@ body {
     flex-direction: row;
     justify-content: space-between;
 
-    > div.contents {
-      /** Each page component */
-      flex-grow: 1000;
+    .page {
+      .frame {
+        width: 100%;
+        background: $white-color;
+        opacity: 0.9;
+        padding: 0.5em 1em;
+        border-radius: 0.5em;
+
+        &.error {
+          font-weight: bold;
+          font-size: 1.5em;
+          color: $pink-color;
+        }
+      }
     }
 
     nav {
       /** Menu component*/
       display: flex;
       flex-direction: column;
+      position: fixed;
+      flex-wrap: wrap;
+      right: 0px;
 
       a {
-        opacity: .5;
+        opacity: 0.5;
 
         p {
           text-align: center;
         }
 
-        &:hover, &.select {
+        &:hover,
+        &.select {
           opacity: 1;
         }
       }
     }
-  }
-
-  footer {
   }
 
   .background {
