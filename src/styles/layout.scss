@@ -2,7 +2,8 @@
 
 body {
   header,
-  footer {
+  footer,
+  nav {
     background: $dark-color;
     opacity: 0.9;
     color: $white-color;
@@ -17,12 +18,29 @@ body {
   main {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     > div.contents {
+      /** Each page component */
       flex-grow: 1000;
     }
 
     nav {
+      /** Menu component*/
+      display: flex;
+      flex-direction: column;
+
+      a {
+        opacity: .5;
+
+        p {
+          text-align: center;
+        }
+
+        &:hover, &.select {
+          opacity: 1;
+        }
+      }
     }
   }
 

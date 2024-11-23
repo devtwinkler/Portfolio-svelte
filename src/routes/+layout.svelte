@@ -10,6 +10,7 @@
 
 <!-- Render Header component -->
 <Header />
+
 <main>
   <!-- Dynamic rednering per page -->
   <slot />
