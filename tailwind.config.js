@@ -4,7 +4,12 @@ export default {
     './src/**/*.{html,js,svelte,ts}', // Adjust this if necessary
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        exs: '0px',
+        xs: '260px'
+      }
+    },
   },
   plugins: [],
 }
