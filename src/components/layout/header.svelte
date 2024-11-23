@@ -1,7 +1,7 @@
 <script>
-  import avatar from "../assets/imgs/mine-01.png";
-  import logo from "../assets/imgs/logo.png";
-  import { NAME, QUALIFICATION } from "../lib/personal";
+  import avatar from "../../assets/imgs/mine-01.png";
+  import logo from "../../assets/imgs/logo.png";
+  import { NAME, QUALIFICATION } from "../../lib/personal";
 </script>
 
 <header class="flex flex-col">

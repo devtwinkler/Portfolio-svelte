@@ -1,12 +1,14 @@
 @use "./values.scss" as *;
 
 body {
-  header {
-    position: relative;
+  header,
+  footer {
     background: $dark-color;
-    opacity: .9;
+    opacity: 0.9;
     color: $white-color;
+  }
 
+  header {
     img {
       border-radius: 50%;
     }
