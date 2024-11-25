@@ -25,3 +25,11 @@ body {
     flex-grow: 1000;
   }
 }
+
+/** attribute values */
+.color-green {
+  color: $green-color;
+}
+.pink-green {
+  color: $pink-color;
+}
