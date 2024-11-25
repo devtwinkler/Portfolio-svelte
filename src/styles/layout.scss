@@ -29,32 +29,49 @@ body {
         padding: 0.5em 1em;
         border-radius: 0.5em;
 
+        > h1 {
+          font-size: 1.5em;
+          font-weight: bold;
+          text-align-last: center;
+          color: $blue-color;
+        }
+
+        > div {
+          padding-top: 1em;
+          > img {
+            width: 15em;
+            height: 15em;
+          }
+        }
+
         &.error {
           font-weight: bold;
           font-size: 1.5em;
-          color: $pink-color;
+          color: $pink-color !important;
         }
       }
     }
 
-    nav {
-      /** Menu component*/
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      flex-wrap: wrap;
-      right: 0px;
+    .menu {
+      nav {
+        /** Menu component*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        right: 0px;
 
-      a {
-        opacity: 0.5;
+        a {
+          opacity: 0.5;
 
-        p {
-          text-align: center;
-        }
+          p {
+            text-align: center;
+            font-size: 0.8em;
+          }
 
-        &:hover,
-        &.select {
-          opacity: 1;
+          &:hover,
+          &.select {
+            opacity: 1;
+          }
         }
       }
     }

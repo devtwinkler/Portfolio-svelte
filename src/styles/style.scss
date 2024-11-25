@@ -6,5 +6,6 @@
 **/
 
 @use "./tailwind.scss"; //Config for Tailwind CSS
+@use "./responsive.scss"; //config for responsive
 @use "./general.scss"; //General style-sheet for every DOM
 @use "./layout.scss"; //Layout style-sheets, such as Header, Main, Footer, ...
