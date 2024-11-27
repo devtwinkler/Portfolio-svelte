@@ -21,7 +21,7 @@
   import iconGPT from "../../assets/icons/gpt.png";
   import iconGoogle from "../../assets/icons/google.png";
   import iconAWS from "../../assets/icons/aws.png";
-  import iconTensoFlow from "../../assets/icons/TensorFlow.png";
+  import iconTensoFlow from "../../assets/icons/tensorFlow.png";
   import iconKeras from "../../assets/icons/keras.png";
   import iconPytorch from "../../assets/icons/pytorch.png";
   import iconReact from "../../assets/icons/react.png";
