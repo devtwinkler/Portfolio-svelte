@@ -22,6 +22,11 @@
   import iconGoogle from "../../assets/icons/google.png";
   import iconAWS from "../../assets/icons/aws.png";
   import iconTensoFlow from "../../assets/icons/TensorFlow.png";
+  import iconKeras from "../../assets/icons/keras.png";
+  import iconPytorch from "../../assets/icons/pytorch.png";
+  import iconReact from "../../assets/icons/react.png";
+  import iconNext from "../../assets/icons/next.png";
+  import iconVue from "../../assets/icons/vue.png";
 </script>
 
 <div class="frame">
@@ -120,5 +125,10 @@
 
   <div class="icons small">
     <img src={iconTensoFlow} alt="..." />
+    <img src={iconKeras} alt="..." />
+    <img src={iconPytorch} alt="..." />
+    <img src={iconReact} alt="..." />
+    <img src={iconNext} alt="..." />
+    <img src={iconVue} alt="..." />
   </div>
 </div>
