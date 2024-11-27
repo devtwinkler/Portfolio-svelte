@@ -28,6 +28,7 @@ body {
         opacity: 0.9;
         padding: 0.5em 1em;
         border-radius: 0.5em 0em 0em 0.5em;
+        margin-bottom: 0.5em;
 
         > h1 {
           font-size: 1.5em;
@@ -38,7 +39,7 @@ body {
         }
 
         > div {
-          padding-top: 1em;
+          padding-top: 0.5em;
 
           > img {
             width: 15em;
@@ -50,11 +51,83 @@ body {
 
             &.high-light {
               font-size: 1.2em;
-              font-style: italic;
               font-weight: bold;
-              text-align: right;
               color: $gold-color;
               text-shadow: 1px 1px 2px $dark-color;
+            }
+          }
+
+          &.icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            width: 100%;
+
+            img {
+              width: 5em;
+              height: 5em;
+            }
+
+            &.small {
+              img {
+                width: 2.5em !important;
+                height: 2.5em !important;
+                gap: 0.5em !important;
+              }
+            }
+
+            &.to-right {
+              justify-content: flex-end;
+
+              @keyframes scaleIn {
+                0% {
+                  transform: scale(0);
+                }
+                10% {
+                  transform: scale(1);
+                }
+                20% {
+                  transform: scale(1);
+                }
+                90% {
+                  transform: scale(1);
+                }
+                100% {
+                  transform: scale(0);
+                }
+              }
+
+              &.animation {
+                img {
+                  animation: scaleIn 10s infinite;
+
+                  &:nth-child(7) {
+                    animation-delay: 1s;
+                  }
+                  &:nth-child(6) {
+                    animation-delay: 2s;
+                  }
+                  &:nth-child(5) {
+                    animation-delay: 3s;
+                  }
+                  &:nth-child(4) {
+                    animation-delay: 4s;
+                  }
+                  &:nth-child(3) {
+                    animation-delay: 5s;
+                  }
+                  &:nth-child(2) {
+                    animation-delay: 6s;
+                  }
+                  &:nth-child(1) {
+                    animation-delay: 7s;
+                  }
+                }
+              }
+            }
+
+            &.center {
+              justify-content: center;
             }
           }
         }

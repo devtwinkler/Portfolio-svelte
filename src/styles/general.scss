@@ -27,9 +27,21 @@ body {
 }
 
 /** attribute values */
+//Color values
 .color-green {
   color: $green-color;
 }
-.pink-green {
+.color-verdure {
+  color: $verdure-color;
+}
+.color-pink {
   color: $pink-color;
+}
+.color-gold {
+  color: $gold-color;
+}
+
+//Font values
+.align-right {
+  text-align: right !important;
 }
